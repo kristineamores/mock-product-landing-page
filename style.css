@@ -1,0 +1,1111 @@
+
+#header-container {
+  background: url(./images/Slider01.jpg);
+  position: relative;
+  display: flex;
+  background-repeat: no-repeat;
+  margin-top: -10px;
+  background-size: cover;
+  height: 650px;
+  width: 100%;
+  animation-name: slidein;
+  animation-duration: 15s;
+  animation-iteration-count: infinite;
+  -webkit-animation-name: slidein;
+  -webkit-animation-duration: 10s;
+  -webkit-animation-iteration-count: infinite;
+
+}
+@keyframes slidein {
+  0% {
+    background: url(./images/Slider01.jpg);
+  background-repeat: no-repeat;
+  margin-top: -10px;
+  background-size: cover;
+
+
+  }
+
+  33% {
+    background: url(./images/Slider02.jpg);
+  background-repeat: no-repeat;
+  margin-top: -10px;
+  background-size: cover;
+
+    
+  }
+
+  66% {
+  background: url(./images/Slider03.jpg);
+  background-repeat: no-repeat;
+  margin-top: -10px;
+  background-size: cover;
+
+    
+  }
+}
+
+#logo {
+  display: inline-block;
+  vertical-align: middle;
+  width: 140px;
+  height: 80px;
+  margin-bottom: 0px;
+  margin-top: 0px;
+  margin-right: 0px;
+}
+#title {
+  display: inline-block;
+  font-size: 25px;
+  margin-right: 0px;
+  background: -webkit-linear-gradient(45deg,	#9E9FA1, #D0D1D3, #9E9FA1);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: white;
+  -webkit-text-stroke: .7px #778899;
+   vertical-align: middle;
+}
+#navbar1 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 1%;
+  width: 100%;
+}
+#navbar2 {
+  display: inline-block;
+  vertical-align: middle;
+  margin-top: 5px;
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+  
+}
+article {
+  display: inline-block;
+}
+.article-nav {
+  color: white;
+  text-shadow: 3px 1px 1px #3e3f42;
+  font-size: 18px;
+  vertical-align: middle;
+  margin-right: 30px;
+  font-family: "nunito";
+
+}
+.article-nav:hover {
+  box-shadow: 10px 12px 16px 10px rgba(0,0,0,0.24), 0 17px 50px 0 rgba(0,0,0,0.19);
+  box-color: black;
+ 
+}
+#hr-head {
+  width: 100%;
+  border: 2px solid #fccb1b;
+  text-align: left;
+}
+h2 {
+  text-align: center;
+  padding-top: 100px;
+  margin-bottom: 0px;
+  color: white;
+  font-size: 35px;
+  -webkit-text-stroke: .7px #41464f;
+}
+h3 {
+  text-align: center;
+  padding-bottom: 100px;
+  padding-top: 1px;
+  color: white;
+  font-size: 25px;
+  font-style: italic;
+  -webkit-text-stroke: .7px #41464f;
+}
+#page-container {
+  margin-left: 9%;
+  margin-right: 9%;
+}
+.about-container {
+  margin-top: 60px;
+  display: flex;
+
+}
+#contact-container {
+  text-align: left;
+  background-color: #fffdf9;
+  border: 2px solid #fccb1b;
+  width: 65em;
+  height: auto;
+}
+#contacthead {
+  font-family: "merriweather sans";
+  font-size: 14px;
+  margin-left: 35px;
+  margin-top: 20px;
+  margin-right: 5px;
+}
+#contact-location {
+  font-style: bold;
+  display: block;
+  font-family: "Acme";
+  font-size: 13px;
+  margin-left: -10px;
+  margin-right: 0px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+ margin-right: 10px;
+    line-height: 23px;
+}
+#contact-location:before {
+  content: "📍";
+  float: left;
+  width: 1.2em;
+  font-size: 17px;
+  margin-top: 20px;
+  margin-right: 10px;
+  margin-bottom: 25px;
+
+}
+#contact-phone {
+  font-style: bold;
+  display: block;
+  font-family: "Acme";
+  font-size: 13px;
+  margin-left: -10px;
+  margin-right: 0px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+margin-right: 10px;
+  line-height: 23px;
+}
+#contact-phone:before {
+  content: "📞";
+  float: left;
+  width: 1.2em;
+  font-size: 15px;
+  margin-top: px;
+  margin-right: 10px;
+
+}
+#contact-fax {
+  font-style: bold;
+  display: block;
+  font-family: "Acme";
+  font-size: 13px;
+  margin-left: -10px;
+  margin-right: 0px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+margin-right: 10px;
+   line-height: 23px;
+}
+#contact-fax:before {
+  content: "📠";
+  float: left;
+  width: 1.2em;
+  font-size: 15px;
+  margin-top: 0;
+  margin-right: 10px;
+}
+#contact-mail {
+  font-style: bold;
+  display: block;
+  font-family: "Acme";
+  font-size: 13px;
+  margin-left: -10px;
+  margin-right: 0px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+margin-right: 10px;
+   line-height: 23px;
+}
+#contact-mail:before {
+  content: "✉️";
+  float: left;
+  width: 1.2em;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-right: 10px;
+
+}
+#contact-hours {
+  font-style: bold;
+  display: block;
+  font-family: "Acme";
+  font-size: 13px;
+  margin-left: -10px;
+  margin-right: 0px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+margin-right: 10px;
+   line-height: 23px;
+}
+#contact-hours:before {
+  content: "⏱️";
+  float: left;
+  width: 1.2em;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+#about-us {
+  text-align: left;
+  margin-left: 20px;
+ 
+}
+hr {
+  
+}
+#hr-about {
+  width: 50px;
+  border: 1px solid #fccb1b;
+  float: left;
+}
+
+.head {
+  font-family: "Nunito";
+  font-size: 18px;
+  display: block;
+}
+#about-content {
+  text-align: left;
+  display: inline-block;
+  font-family: "karla";
+  font-size: 18px;
+  text-align: justify;
+  line-height: 30px;
+}
+.services-container {
+  margin-top: 60px;
+  margin-left: auto;
+  margin-right: auto;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-column-gap: auto;
+
+}
+.service-header-container {
+  margin-top: 60px;
+  text-align: center;
+}
+#services {
+  text-align: center;
+  display: block;
+  margin-top: 60px;
+
+}
+#hr-services1 {
+  width: 50px;
+  border: 1px solid #fccb1b;
+  float: left;
+  height: 1%;
+}
+
+#hr-services {
+  width: 50px;
+  border: 1px solid #fccb1b;
+  float: left;
+  height: 1%;
+}
+
+.service-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  
+}
+#service-head {
+  font-family: "merriweather sans";
+  font-size: 14px;
+  margin-left: 0px;
+  text-align: left;
+
+}
+#service-image {
+  width: 250px;
+  height: 180px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+  
+}
+#service-caption {
+  text-align: left;
+  font-family: "karla";
+  font-size: 18px;
+  text-align: justify;
+  line-height: 30px;
+  width: 250px;
+}
+.bizsafe-container {
+  margin-top: 60px;
+  display: flex;
+  justify-content: space-around;
+}
+.bizsafe {
+  width: 380px;
+  height: 250px;
+  display: inline-block;
+  vertical-align: middle;
+  text-align: center;
+}
+.vision-side1 {
+  text-align: center;
+  margin-left: 5%;
+  vertical-align: middle;
+  margin-right: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  justify-content: space-around;
+}
+#vision-head {
+  font-family: "merriweather sans";
+  font-size: 14px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+}
+#vision-caption {
+  text-align: left;
+  font-family: "karla";
+  font-size: 15px;
+  text-align: justify;
+  line-height: 30px;
+  width: auto;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+.gallery-header-container {
+  margin-top: 60px;
+  text-align: center;
+
+}
+#gallery {
+  text-align: center;
+  display: block;
+  margin-top: 60px;
+
+} 
+#project-caption {
+  text-align: center;
+  font-family: "merriweather sans";
+  font-size: 14px;
+} 
+.gallery-container {
+  margin-top: 60px;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex; 
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+#gallery-img {
+  width: 250px;
+  height: 180px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+}
+#gallery-img:hover {
+  transform: scale(1.5);
+}
+.footer-container {
+  background-color: #191818;
+  margin-top: 60px;
+  vertical-align: middle;
+  display: flex;
+  justify-content: space-around;
+}
+.footer1-container {
+  margin-top: 60px;
+  display: flex;
+  vertical-align: middle;
+}
+#footer-title {
+  text-align: left;
+  width: auto;
+  height: auto;
+  margin-top: 60px;
+}
+#logo2 {
+  width: 300px;
+  height: 180px;
+  text-align: center;
+}
+#footer-caption {
+  color: #727171;
+  font-family: "karla";
+  font-size: 15px;
+  text-align: justify;
+  width: 300px;
+}
+#social-container {
+  text-align: center;
+  width: auto;
+  margin-bottom: 60px;
+}
+#social {
+  margin-top: 20px;
+  font-family: "karla";
+  font-size: 15px;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  margin-right: 20px;
+  -webkit-filter: grayscale(100%); /* Safari 6.0 - 9.0 */
+    filter: grayscale(100%);
+}
+#social:hover {
+  -webkit-filter: saturate(100%); /* Safari 6.0 - 9.0 */
+    filter: saturate(100%);
+}
+.footer2-container {
+  vertical-align: middle;
+  color: #727171;
+  text-align: center;
+ 
+}
+#contact-footer {
+  text-align: left;
+  width: 350px;
+  height: auto;
+  margin-top: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+}
+#footercontacthead {
+  font-family: "Nunito";
+  font-size: 18px;
+  margin-left: 35px;
+  margin-top: 20px;
+  color: white;
+}
+#footer-location {
+  font-style: bold;
+  display: block;
+  font-family: "Karla";
+  font-size: 15px;
+  margin-left: -10px;
+  margin-right: 0px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+  margin-right: 0px;
+  line-height: 23px;
+  color: white;
+}
+#footer-location:before {
+  content: "📍";
+  float: left;
+  width: 1.2em;
+  font-size: 17px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+
+}
+#footer-phone {
+  font-style: bold;
+  display: block;
+  font-family: "karla";
+  font-size: 15px;
+  margin-left: -10px;
+  margin-right: 0px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+margin-right: 10px;
+  line-height: 23px;
+   color: white;
+}
+#footer-phone:before {
+  content: "📞";
+  float: left;
+  width: 1.2em;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-right: 10px;
+
+}
+#footer-fax {
+  font-style: bold;
+  display: block;
+  font-family: "karla";
+  font-size: 15px;
+  margin-left: -10px;
+  margin-right: 0px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+margin-right: 10px;
+   line-height: 23px;
+   color: white;
+}
+#footer-fax:before {
+  content: "📠";
+  float: left;
+  width: 1.2em;
+  font-size: 15px;
+  margin-top: 0;
+  margin-right: 10px;
+}
+#footer-mail {
+  font-style: bold;
+  display: block;
+  font-family: "karla";
+  font-size: 15px;
+  margin-left: -10px;
+  margin-right: 0px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+margin-right: 10px;
+   line-height: 23px;
+   color: white;
+}
+#footer-mail:before {
+  content: "✉️";
+  float: left;
+  width: 1.2em;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-right: 10px;
+
+}
+#footer-hours {
+  font-style: bold;
+  display: block;
+  font-family: "karla";
+  font-size: 15px;
+  margin-left: -10px;
+  margin-right: 0px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+margin-right: 10px;
+   line-height: 23px;
+   color: white;
+}
+#footer-hours:before {
+  content: "⏱️";
+  float: left;
+  width: 1.2em;
+  font-size: 15px;
+  margin-top: 0px;
+  margin-bottom: 5px;
+  margin-right: 10px;
+}
+#contact-footer2 {
+  text-align: left;
+  width: auto;
+  height: auto;
+  margin-top: 60px;
+  margin-left: 0px;
+  margin-right: 0px;
+  
+}
+#footercontacthead2 {
+  font-family: "Nunito";
+  font-size: 18px;
+  margin-left: 30px;
+  margin-top: 20px;
+  
+ color: #727171;
+}
+#footer-info {
+  font-style: bold;
+  display: block;
+  font-family: "Karla";
+  font-size: 15px;
+  margin-left: -10px;
+  margin-right: 0px;
+  vertical-align: middle;
+  margin-bottom: 20px;
+ margin-right: 10px;
+    line-height: 23px;
+  color: #727171;
+}
+#footer-info:before {
+  content: ">>";
+  float: left;
+  width: 1.2em;
+  font-size: 17px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 0px;
+  color: #fccb1b;
+
+}
+#last-line {
+  background-color: black;
+  height: 60px;
+}
+#last-line-caption {
+  font-style: bold;
+  display: block;
+  font-family: "Karla";
+  font-size: 15px;
+  vertical-align: middle;
+  color: #727171;
+  padding-top: 23px;
+}
+#page-container1 {
+  margin-left: 9%;
+  margin-right: 9%;
+}
+footer {
+  text-align: center;
+  color: white;
+  font-size: .9em;
+  background-color: #727171;
+  width: 100%;
+  font-family: "karla";
+}
+
+
+
+@media (min-width: 350px) 
+  and (max-width: 1024px) {
+    #header-container {
+      height: 1000px;
+    }   
+    #logo {
+      width: 300px;
+        height: 200px;
+    }
+    #title {
+      font-size: 45px;
+    }
+    .article-nav {
+      font-size: 12px;
+      margin-right: 10px;
+    }
+    #page-container {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+    h2 {
+      padding-top: 10%;
+      font-size: 20px;
+      text-align: center;
+    }
+    h3 {
+      padding-top: 1px;
+      font-size: 16px;
+    }
+.about-container {
+  margin-top: 60px;
+  display: block;
+    }
+    #contact-container {
+  width: 100%;
+  height: auto;
+    }
+    #contacthead {
+      font-size: 13.5px;
+    }
+#contact-location:before {
+    font-size: 17px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+  #about-us {
+  text-align: center;
+  margin-left: 0px;
+ 
+}
+    #hr-about {
+  width: 5%;
+      margin-left: 47.5%;
+      margin-right: 47.5%;
+    }
+    
+  .head {
+  font-size: 16px;
+  margin-top: 60px;
+  margin-left: 0px;
+}
+    
+#about-content {
+  font-size: 16px;
+}
+.bizsafe-container {
+  margin-top: 40px;
+  margin-left: 0px;
+  display: block;
+  text-align: center;
+    }
+ .bizsafe {
+  text-align: center;
+   width: 340px;
+  height: 210px;
+}
+.vision-side1 {
+  vertical-align: middle;
+  margin-right: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-column-gap: 0px;
+}
+#vision-head {
+  font-size: 13.5px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-top: 10px;
+}
+#vision-caption {
+  text-align: left;
+  font-family: "karla";
+  font-size: 15px;
+  text-align: justify;
+  line-height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+    .service-list {
+  display: block;
+
+    }
+    #services {
+       font-size: 16px;
+    }
+    .service-container {
+      display: grid;
+      
+    }
+    #service-head {
+      font-size: 13.5px;
+      width: 100%;
+      text-align: center;
+    }
+    #service-caption {
+      font-size: 16px;
+      width: 100%;
+      text-align: center;
+    }
+    #service-image {
+      width: 350px;
+      height: 280px;
+      justify-self: center;
+    }  
+    #hr-services {
+  width: 5%;
+      margin-left: 47.5%;
+      margin-right: 47.5%;
+}
+
+    #project-caption {
+       font-size: 13.5px;
+      width: 100%;
+    }
+    #gallery {
+      font-size: 16px;
+    }
+.gallery-container {
+  margin-top: 60px;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex; 
+    flex-wrap: wrap;
+  justify-content: space-around;
+    }
+  #gallery-img {
+  width: 280px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+    }
+ .footer1-container {
+      display: block;
+   width: 100%;
+   
+     }
+   #footer-title {
+     width: 100%;
+     display: grid; 
+     grid-template-columns: 1fr;
+   align-items: center;
+  
+    } 
+    #logo2 {
+      margin-left: auto;
+      margin-right: auto;
+    }  
+    #footer-caption {
+  font-size: 13.5x;
+  text-align: center;
+  width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+}
+    #social-container {
+      width: 100%;
+      text-align: center;
+    }
+    #contact-footer {
+     width: 100%;
+     margin-top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+     display: grid; 
+     grid-template-columns: 1fr;
+   align-items: center;
+   }
+    #footercontacthead {
+     text-align: center;
+     margin-left: 0px;
+     margin-right: 0px;
+      font-size: 15px;
+    }
+    #footerlist {
+      text-align: center;
+    }
+    #footercontent {
+      display: inline-block; 
+      text-align: left;
+    }
+    #contact-footer2 {
+    width: 100%;
+     margin-top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+     display: grid; 
+     grid-template-columns: 1fr;
+   align-items: center;
+   }
+    #footercontacthead2 {
+      text-align: center;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  
+    #last-line-caption {
+      text-align: center;
+    }   
+}
+
+@media only screen and (min-device-width: 350px) 
+  and (max-device-width: 1024px) {
+    #header-container {
+      height: 1000px;
+    }   
+    #logo {
+     width: 300px;
+        height: 200px;
+    }
+    #title {
+      font-size: 45px;
+    }
+    .article-nav {
+      font-size: 25px;
+      margin-right: 10px;
+    }
+    #page-container {
+  margin-left: 2%;
+  margin-right: 2%;
+}
+    h2 {
+      padding-top: 18%;
+      font-size: 45px;
+    }
+    h3 {
+      padding-top: 0px;
+      font-size: 40px;
+    }
+.about-container {
+  margin-top: 60px;
+  display: block;
+    }
+    #contact-container {
+  width: 100%;
+  height: auto;
+    }
+    #contacthead {
+      font-size: 13.5px;
+    }
+#contact-location:before {
+    font-size: 17px;
+  margin-top: 0px;
+  margin-right: 10px;
+  margin-bottom: 5px;
+}
+  #about-us {
+  text-align: center;
+  margin-left: 0px;
+ 
+}
+    #hr-about {
+  width: 5%;
+      margin-left: 47.5%;
+      margin-right: 47.5%;
+    }
+    
+  .head {
+  font-size: 16px;
+  margin-top: 60px;
+  margin-left: 0px;
+}
+    
+#about-content {
+  font-size: 16px;
+}
+.bizsafe-container {
+  margin-top: 40px;
+  margin-left: 0px;
+  display: block;
+  text-align: center;
+    }
+ .bizsafe {
+  text-align: center;
+   width: 340px;
+  height: 210px;
+}
+.vision-side1 {
+  vertical-align: middle;
+  margin-right: 0px;
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-template-rows: auto auto auto auto;
+  grid-column-gap: 0px;
+}
+#vision-head {
+  font-size: 13.5px;
+  margin-left: 0px;
+  margin-bottom: 10px;
+  text-align: left;
+  margin-top: 10px;
+}
+#vision-caption {
+  text-align: left;
+  font-family: "karla";
+  font-size: 15px;
+  text-align: justify;
+  line-height: 30px;
+  width: 100%;
+  margin-bottom: 10px;
+  margin-top: 10px;
+}
+    .service-list {
+  display: block;
+
+    }
+    #services {
+       font-size: 16px;
+    }
+    .service-container {
+      display: grid;
+      
+    }
+    #service-head {
+      font-size: 13.5px;
+      width: 100%;
+      text-align: center;
+    }
+    #service-caption {
+      font-size: 16px;
+      width: 100%;
+      text-align: center;
+    }
+    #service-image {
+      width: 350px;
+      height: 280px;
+      justify-self: center;
+    }  
+    #hr-services {
+  width: 5%;
+      margin-left: 47.5%;
+      margin-right: 47.5%;
+}
+
+    #project-caption {
+       font-size: 13.5px;
+      width: 100%;
+    }
+    #gallery {
+      font-size: 16px;
+    }
+.gallery-container {
+  margin-top: 60px;
+  margin-left: 0;
+  margin-right: 0;
+  display: flex; 
+    flex-wrap: wrap;
+  justify-content: space-around;
+    }
+  #gallery-img {
+  width: 280px;
+  height: 200px;
+  margin-top: 10px;
+  margin-bottom: 5px;
+  margin-left: 0px;
+    }
+ .footer1-container {
+      display: block;
+   width: 100%;
+   
+     }
+   #footer-title {
+     width: 100%;
+     display: grid; 
+     grid-template-columns: 1fr;
+   align-items: center;
+  
+    } 
+    #logo2 {
+      margin-left: auto;
+      margin-right: auto;
+    }  
+    #footer-caption {
+  font-size: 23px;
+  text-align: center;
+  width: 100%;
+      margin-left: auto;
+      margin-right: auto;
+}
+    #social-container {
+      width: 100%;
+      text-align: center;
+    }
+    #contact-footer {
+     width: 100%;
+     margin-top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+     display: grid; 
+     grid-template-columns: 1fr;
+   align-items: center;
+   }
+    #footercontacthead {
+     text-align: center;
+     margin-left: 0px;
+     margin-right: 0px;
+      font-size: 23.5px;
+    }
+    #footerlist {
+      text-align: center;
+      font-size: 23.5px;
+    }
+    #footercontent {
+      display: inline-block; 
+      text-align: left;
+    }
+    #contact-footer2 {
+    width: 100%;
+     margin-top: 0px;
+      margin-left: auto;
+      margin-right: auto;
+     display: grid; 
+     grid-template-columns: 1fr;
+   align-items: center;
+   }
+    #footercontacthead2 {
+      text-align: center;
+      margin-left: 0px;
+      margin-right: 0px;
+    }
+  
+    #last-line-caption {
+      text-align: center;
+    }   
+}
